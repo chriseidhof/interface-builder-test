@@ -18,6 +18,8 @@
 		83704CE4160F890300E1C66D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83704CE3160F890300E1C66D /* Default-568h@2x.png */; };
 		83704CE7160F890300E1C66D /* CEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83704CE6160F890300E1C66D /* CEViewController.m */; };
 		83704CEA160F890300E1C66D /* CEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83704CE8160F890300E1C66D /* CEViewController.xib */; };
+		83704CF1160F89B900E1C66D /* CEPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83704CF0160F89B900E1C66D /* CEPageView.xib */; };
+		83704CF4160F900100E1C66D /* CEPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83704CF3160F900100E1C66D /* CEPageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		83704CE5160F890300E1C66D /* CEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEViewController.h; sourceTree = "<group>"; };
 		83704CE6160F890300E1C66D /* CEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CEViewController.m; sourceTree = "<group>"; };
 		83704CE9160F890300E1C66D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CEViewController.xib; sourceTree = "<group>"; };
+		83704CF0160F89B900E1C66D /* CEPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CEPageView.xib; sourceTree = "<group>"; };
+		83704CF2160F900100E1C66D /* CEPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEPageView.h; sourceTree = "<group>"; };
+		83704CF3160F900100E1C66D /* CEPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEPageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,9 @@
 				83704CE5160F890300E1C66D /* CEViewController.h */,
 				83704CE6160F890300E1C66D /* CEViewController.m */,
 				83704CE8160F890300E1C66D /* CEViewController.xib */,
+				83704CF0160F89B900E1C66D /* CEPageView.xib */,
+				83704CF2160F900100E1C66D /* CEPageView.h */,
+				83704CF3160F900100E1C66D /* CEPageView.m */,
 				83704CD4160F890200E1C66D /* Supporting Files */,
 			);
 			path = HorizontalView;
@@ -164,6 +172,7 @@
 				83704CE2160F890300E1C66D /* Default@2x.png in Resources */,
 				83704CE4160F890300E1C66D /* Default-568h@2x.png in Resources */,
 				83704CEA160F890300E1C66D /* CEViewController.xib in Resources */,
+				83704CF1160F89B900E1C66D /* CEPageView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +186,7 @@
 				83704CDA160F890200E1C66D /* main.m in Sources */,
 				83704CDE160F890300E1C66D /* CEAppDelegate.m in Sources */,
 				83704CE7160F890300E1C66D /* CEViewController.m in Sources */,
+				83704CF4160F900100E1C66D /* CEPageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

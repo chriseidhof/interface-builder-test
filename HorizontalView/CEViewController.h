@@ -10,4 +10,6 @@
 
 @interface CEViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+
 @end
